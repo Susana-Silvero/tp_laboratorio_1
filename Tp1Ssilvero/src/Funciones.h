@@ -15,7 +15,7 @@ float CalcularSuma(float, float);
 float CalcularResta (float , float );
 float CalcularDivision( float, float);
 float Calcularmultiplicacion ( float, float);
-float CalcularFactorial(float);
+int CalcularFactorial(float);
 
 
 #endif /* FUNCIONES_H_ */

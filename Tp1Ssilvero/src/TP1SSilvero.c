@@ -23,8 +23,8 @@ int main(void) {//declaración de las variables.
 	    float ResultadoResta;
 	    float ResultadoDivision;
 	    float ResultadoMultiplicacion;
-	    float ResultadoFactorialA;
-	    float ResultadoFactorialB;
+	    int ResultadoFactorialA;
+	    int ResultadoFactorialB;
 
 	    //inicialzar variables.
 	    ResultadoSuma=0;
@@ -99,8 +99,8 @@ int main(void) {//declaración de las variables.
 	           printf("El resultado de la resta de: %.2f-%.2f = %.2f\n",PrimerOperando,SegundoOperando, ResultadoResta);
 	           printf("El resultado de la división de: %.2f/%.2f = %.2f\n",PrimerOperando,SegundoOperando, ResultadoDivision);
 	           printf("El resultado de la multiplicación de: %.2f*%.2f = %.2f\n",PrimerOperando,SegundoOperando,ResultadoMultiplicacion);
-	           printf("El resultado del factorial A es: %.2f = %.2f\n",PrimerOperando, ResultadoFactorialA);
-	           printf("El resultado del factorial B es: %.2f = %.2f\n",SegundoOperando, ResultadoFactorialB);
+	           printf("El resultado del factorial A es: %.2f = %d\n",PrimerOperando, ResultadoFactorialA);
+	           printf("El resultado del factorial B es: %.2f = %d\n",SegundoOperando, ResultadoFactorialB);
 	           printf("======================================================\n");
 	           //printf("Ingresar Opcion del menu: ");
 	           break;

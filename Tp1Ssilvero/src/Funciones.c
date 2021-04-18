@@ -79,12 +79,12 @@ float CalcularResta (float operando1 , float operando2 )
    * @fn float CalcularFactorial(float)
   * @brief Esta función va a calcular el factorial de cada uno de los operando, primero del operando1
   * y luego del operando 2.
-  * Primero verifico si el valor de entrada es 0 y si es 0 retorna 1, si no, realiza la operación teniendo
-  * en cuenta los signos, positivo y negativo.
+  * Primero verifico si el valor de entrada es 0 y si es 0 retorna 1, si es un numero negativo imprime un error
+  *y si no realiza la oparacion retornando un entero.
   * @param operando
   * @return retorna el resultado del factorialA y luego del factorailB
   */
-  float CalcularFactorial(float operando)
+  int CalcularFactorial(float operando)
  {
     float i=0;
     float resultado =1;
@@ -102,13 +102,11 @@ float CalcularResta (float operando1 , float operando2 )
     }
     else
     {
-        for(i=operando; i<-1; i++)
-        {
-            resultado=resultado*i;
-        }
+    	printf("Error-No es posible factorializar un numero negativo");
+    	printf("\n======================================================\n");
 
     }
 
-    return resultado;
+    return (int)resultado;
 
     }
